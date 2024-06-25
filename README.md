@@ -2,9 +2,9 @@
 Various Books Regarding Deep Learning
 
 # Purpose
-To study various books about deep learning in various places and to track what I learned before I made this repo. 
+To study various books about deep learning in various places and to track what I learned before, I made this repo. 
 
-I will also try to comment what I learned and felt while studying a specific DL book.
+I will also try to comment what I learned and felt while studying specific deep learning books.
 
 # Book
 ## First Book: Deep Learning With Tensorflow
