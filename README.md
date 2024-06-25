@@ -22,5 +22,5 @@ That's why I chose this book.
 ### Level
 According to Kyobo Bookstore, the level of this book is between novice and intermediate.
 
-### Study Period
+### Study Period
 2024/06/17 ~ 
