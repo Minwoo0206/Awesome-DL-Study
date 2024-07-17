@@ -23,4 +23,11 @@ That's why I chose this book.
 According to Kyobo Bookstore, the level of this book is between novice and intermediate.
 
 ### Study Period
-2024/06/17 ~ 
+2024/06/17 ~ 2024/07/17
+
+### Review
+Easy to learn, especially for those who want to learn concepts of central deep learning models.
+But, it might not be easy to understand the underlying math problems or code structures within.
+This book is written in 2021, so it has some dependency issues. 
+You have to solve those problems yourself as requirements.txt is not given though the versions of tensorflow and python are specified.
+Personally, I am quite satisfied that I am now able to use tensorflow more freely and got some knowledge about image models besides language models I knew before.
