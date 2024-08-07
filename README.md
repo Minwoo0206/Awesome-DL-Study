@@ -31,3 +31,23 @@ But, it might not be easy to understand the underlying math problems or code str
 This book is written in 2021, so it has some dependency issues. 
 You have to solve those problems yourself as requirements.txt is not given though the versions of tensorflow and python are specified.
 Personally, I am quite satisfied that I am now able to use tensorflow more freely and got some knowledge about image models besides language models I knew before.
+
+## Second Book: Deep Learning from Scratch
+I've learned how to use deep learning frameworks like PyTorch and TensorFlow. 
+Now I'm curious about the basic code behind them.
+While I understand the forward pass, I'm not as clear on what happens during back-propagation. 
+Hopefully, this book will explain it.
+
+### Book Cover
+![image](https://github.com/user-attachments/assets/0986ce96-eb85-4dfd-82ad-f9b5fd3e13cf)
+
+### Level
+According to Kyobo Bookstore, this book is for beginners.
+
+### Study Period
+2024/08/01 ~ 2024/08/07
+
+### Review
+From perceptrons to CNNs, everything was easy and clear. 
+This book helped me understand the basic code behind the frameworks, classes, and functions. 
+However, I have to admit that there wasn't much new information for me to learn, as I was already familiar with most of the content.
