@@ -4,3 +4,4 @@ training_1
 NaverMovie.model
 NaverMovie.nlp
 training_checkpoints
+__pycache__
