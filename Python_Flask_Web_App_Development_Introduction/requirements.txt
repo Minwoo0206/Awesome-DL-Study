@@ -3,3 +3,5 @@ python-dotenv
 email-validator
 flask-debugtoolbar
 flask-mail
+flask-sqlalchemy
+flask-migrate
