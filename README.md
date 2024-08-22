@@ -51,3 +51,19 @@ According to Kyobo Bookstore, this book is for beginners.
 From perceptrons to CNNs, everything was easy and clear. 
 This book helped me understand the basic code behind the frameworks, classes, and functions. 
 However, I have to admit that there wasn't much new information for me to learn, as I was already familiar with most of the content.
+
+## Third Book: Flask Web App Development Introduction
+Let’s say I’ve just built a fantastic model. What’s next? 
+I need to deploy it, whether to sell it or at least introduce it to the public. 
+Surely, I could use Streamlit or Gradio for a simple demo, but what about the backend? What about authentication? And what if I want to run multiple products simultaneously? 
+One day, I might be managing a site like "jiraksil.com." 
+That’s why I started studying this book.
+
+### Book Cover
+![image](https://github.com/user-attachments/assets/dc5b3fba-b106-486b-b7ef-823709de9565)
+
+### Level
+I feel like this book suits for front-end beginners who are familiar with Python.
+
+### Study Period
+2024/08/19 ~
