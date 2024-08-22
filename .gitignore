@@ -5,3 +5,5 @@ NaverMovie.model
 NaverMovie.nlp
 training_checkpoints
 __pycache__
+migrations
+local.sqlite
