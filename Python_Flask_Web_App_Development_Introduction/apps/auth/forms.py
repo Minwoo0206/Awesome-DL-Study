@@ -15,7 +15,7 @@ class SignUpForm(FlaskForm):
         "메일주소",
         validators=[
             DataRequired("메일 주소는 필수입니다. "),
-            Email("메일 주소의 형식으로 입력해 주세요.")
+            Email("메일 주소의 형식으로 입력해 주세요. ")
         ]
     )
 
@@ -27,3 +27,21 @@ class SignUpForm(FlaskForm):
     )
 
     submit = SubmitField("신규 등록")
+
+class LoginForm(FlaskForm):
+    email = StringField(
+        "메일주소",
+        validators=[
+            DataRequired("이메일 주소는 필수입니다. "),
+            Email("이메일 주소의 형식으로 입력하세요. ")
+        ]
+    )
+    
+    password = PasswordField(
+        "비밀번호",
+        validators=[
+            DataRequired("비밀번호는 필수입니다. ")
+        ]
+    )
+
+    submit = SubmitField("로그인")
