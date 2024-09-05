@@ -4,6 +4,7 @@ from flask_migrate import Migrate
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf.csrf import CSRFProtect
 from flask_login import LoginManager
+from apps.config import config
 
 
 db = SQLAlchemy()
@@ -13,16 +14,10 @@ login_manager.login_view = "auth.signup"
 login_manager.login_message = ""
 
 
-def create_app():
+def create_app(config_key):
     app = Flask(__name__)
 
-    app.config.from_mapping(
-        SECRET_KEY="1q2w3e4r",
-        SQLALCHEMY_DATABASE_URI=f"sqlite:///{Path(__file__).parent.parent / 'local.sqlite'}",
-        SQLALCHEMY_TRACK_MODIFICATIONS=False,
-        SQLALCHECMY_ECHO = True,
-        WTF_CSRF_SECRET_KEY="1q2w3e4r"
-    )
+    app.config.from_object(config[config_key])
 
     # CSRF와 앱을 연계한다
     csrf.init_app(app)
