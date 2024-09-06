@@ -7,3 +7,4 @@ training_checkpoints
 __pycache__
 migrations
 local.sqlite
+model.pt
