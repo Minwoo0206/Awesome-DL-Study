@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
 </head>
 
-<body>
+<body> 
     <!-- 내비게이션 바를 작성한다 -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">　
         <div class="container">
@@ -19,10 +19,10 @@
             <div class="btn-group">
                 <form method="GET" action="{{ url_for('detector.search') }}" name="dtSearchForm">
                     {% if request.args.get("search") %}
-                    <input type="search" id="dt-search" class="form-control col-md-12 dt-search" placeholder="検索"
+                    <input type="search" id="dt-search" class="form-control col-md-12 dt-search" placeholder="검색"
                         name="search" value="{{ request.args.get('search') }}" />
                     {% else %}
-                    <input type="search" id="dt-search" class="form-control col-md-12 dt-search" placeholder="検索"
+                    <input type="search" id="dt-search" class="form-control col-md-12 dt-search" placeholder="검색"
                         name="search" />
                     {% endif %}
                 </form>
