@@ -66,4 +66,10 @@ That’s why I started studying this book.
 I feel like this book suits for front-end beginners who are familiar with Python.
 
 ### Study Period
-2024/08/19 ~
+2024/08/19 ~ 2024/09/13
+
+### Review
+You can learn to build a website using Flask, including setting up a database connection with SQLAlchemy and deploying it on Google Cloud Platform. 
+This book is intended for beginners, but it doesn’t cover how to manage HTML, CSS, or JavaScript to enhance your website’s appearance. 
+You’ll need to learn those separately by looking up the examples provided in the book or from other websites.
+I don’t feel like I’ve fully absorbed all the material, so I’ll work on my own side project to understand it more thoroughly.
